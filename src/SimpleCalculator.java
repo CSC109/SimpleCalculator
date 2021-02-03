@@ -25,6 +25,9 @@ public class SimpleCalculator {
 		else if (operator == '/') {
 			result = operand1 - operand2;
 		}
+		else {
+			System.out.println("You didn't follow directions sad :(");
+		}
 		
 		System.out.println(operand1 + " " + operator + " " + operand2 + " = " + result);
 	}
